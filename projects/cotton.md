@@ -3,57 +3,34 @@ layout: project
 type: project
 image: img/cotton/cotton-square.png
 title: "Cotton"
-date: 2014
+date: 2025
 published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - Python
+  - PyTorch
+  - Neural Watermarking
+summary: "Analyzing how robust Meta's VideoSeal watermarks are to noise and repeated watermarking. This was done as part of my contribution to my ECE 296 Sophomore Project."
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+For this lab project, our team worked with Meta’s VideoSeal, a neural watermarking system that hides binary messages in images and videos so that ownership and authenticity can be verified later. We set up the official VideoSeal codebase on a remote Linux server and built a pipeline that embeds a watermark, runs different “attacks” on the watermarked media, and then tries to recover the original bit string. The main goal was to see how well the watermark survives realistic changes while keeping the media visually similar, using bit accuracy, PSNR, and SSIM as our primary metrics.
 
-To give you a flavor of the game, here is an excerpt from one run:
+Most of my work focused on understanding and running the image and video pipelines for two key attack types: adding Gaussian noise and applying repeated watermarking (second and third passes). I traced how VideoSeal takes in a clean image/video and a binary message, produces a watermarked version, and then decodes the message after various distortions. I also dealt with practical issues like environment setup, kernels, and paths in the repo, and helped interpret how the different attacks impacted watermark recovery and visual quality for use in our final poster.
 
 <hr>
 
 <pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
+Input media + binary message A
+        │
+        ▼
+ VideoSeal embed
+        │
+        ├─► Watermarked image/video (baseline: detect A)
+        │
+        ├─► + Gaussian noise (vary σ) → detect → bit accuracy vs σ
+        │
+        └─► Re-embed (message B) → detect → compare messages A, B
 </pre>
 
 <hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>

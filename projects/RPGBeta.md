@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
-title: "RPG Beta (Text Adventure"
+image: img/RPGBeta/rpgbeta-square.png
+title: "RPG Beta (Text Adventure)"
 date: 2025-05-01
 published: true
 labels:

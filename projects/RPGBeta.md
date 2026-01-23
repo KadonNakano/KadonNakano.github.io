@@ -60,4 +60,5 @@ void runBattle(PlayerCharacter* a, PlayerCharacter* b) {
 
 <hr>
 
-Source: <a href="https://github.com/YOUR_USERNAME/YOUR_REPO"><i class="large github icon "></i>YOUR_USERNAME/YOUR_REPO</a>
+Source: <a href="https://github.com/KadonNakano/ece205-lab14a-RPGbeta-KadonNakano
+"><i class="large github icon "></i>KadonNakano/ece205-lab14a-RPGbeta-KadonNakano</a>

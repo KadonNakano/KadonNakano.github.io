@@ -1,19 +1,21 @@
 ---
 layout: essay
 type: essay
-title: "Igniting the fire"
+title: "WOD is a WOD?"
 # All dates must be YYYY-MM-DD format!
-date: 2015-08-26
-published: false
+date: 2026-01-22
+published: true
 labels:
-  - Software Engineering
-  - Learning
+  - Typescript
+  - Technical Essay
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
+<img src="/img/essayimgs/typescriptlogo.png"
+     alt="TypeScript logo"
+     style="float:left; width:140px; margin:0 18px 12px 0;" />
 
-Ever since I first grasped a paintbrush, I’ve always been eager to learn about design. Design is such a complex concept. For example, when looking at abstract art, its meaning can be completely different for different people. It motivates a person to think thoughtfully and has the potential to submerge them in a sea of imagination. It’s that special relationship between the viewer and the art that makes something as technical as software engineering interesting to me.
+This week, we did two WODs: a practice one and a real one. I finished the practice WOD just in the nick of time but was not able to finish the real WOD. I think that I'm still learning how to best approach these challenges. While AI usage is allowed, my conscience is telling me to use it as little as possible to facilitate more learning. 
 
-I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
+I think I've realized that these WODs are testing more than just our TypeScript knowledge. They're also testing how effectively we can use AI as a tool without letting it do the thinking for us. I think that’s a smart, healthy way to bring AI into the classroom, because it encourages responsible use. With how quickly AI is taking over everything, I feel like this is what modern teaching should look like.
 
-I am now starting to take a Software Engineering class. I hope to learn a lot through the course, but I know it will be just the beginning of my journey. By the time I’m done with it, I hope I’ve learned enough to take the next step in my life as a developer. But until then, my fire will keep on burning.
+<div style="clear:both;"></div>

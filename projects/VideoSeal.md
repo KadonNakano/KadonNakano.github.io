@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/VideoSeal/videoseal-square.png
 title: "Cotton"
 date: 2025
 published: true
@@ -12,7 +12,7 @@ labels:
 summary: "Analyzing how robust Meta's VideoSeal watermarks are to noise and repeated watermarking. This was done as part of my contribution to my ECE 296 Sophomore Project."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/VideoSeal/videoseal-header.png">
 
 For this lab project, our team worked with Meta’s VideoSeal, a neural watermarking system that hides binary messages in images and videos so that ownership and authenticity can be verified later. We set up the official VideoSeal codebase on a remote Linux server and built a pipeline that embeds a watermark, runs different “attacks” on the watermarked media, and then tries to recover the original bit string. The main goal was to see how well the watermark survives realistic changes while keeping the media visually similar, using bit accuracy, PSNR, and SSIM as our primary metrics.
 

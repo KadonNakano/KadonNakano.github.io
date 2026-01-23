@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/VideoSeal/videoseal-square.png
-title: "Cotton"
+title: "VideoSeal Watermark Robustness"
 date: 2025
 published: true
 labels:

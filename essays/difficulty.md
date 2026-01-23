@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Learning to Learn"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2026-01-22
 published: true
 labels:
   - Engineering

@@ -6,13 +6,12 @@
     "email": "kadon@hawaii.edu",
     "phone": "808-388-2155",
     "website": "https://KadonNakano.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering in the College of Engineering at University of Hawaii at Manoa. I expect to graduate in Fall, 2026.",
+    "summary": "I am studying for a B.S. in Computer Engineering in the College of Engineering at University of Hawaii at Manoa. I expect to graduate in Fall, 2026. Seeking an entry-level role to grow skills in building and improving real-world computing systems.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "KadonNakano", "url": "http://github.com/KadonNakano" },
       { "network": "linkedin", "username": "KadonNakano", "url": "http://linkedin.com/in/KadonNakano" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "gmail", "username": "kadonnakano1@gmail.com", "url": "mailto:kadonnakano1@gmail.com" }
     ]
   },
   "interests": [

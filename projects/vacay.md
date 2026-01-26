@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/vacay/vacay-square.png
 title: "Vacay"
-date: 2015
+date: 2024
 published: true
 labels:
   - Work
@@ -12,14 +12,6 @@ summary: "A responsive web application for travel planning that my team develope
 
 <img class="img-fluid" src="../img/vacay/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Since 2024, I have been working at an fine dining restaurant called "MW". For my first year at this restaurant, I worked as a busser. Contrary to what you might be thinking, working as a busser at this restaurant is no small job. Many of these shifts have been some of the most physically AND mentally demanding things I've ever experienced. You are constantly moving and thinking at the same time, so you want to be as efficient as possible. You are working with seconds so you want to eliminate as much unnecessary movement as possible. And you are doing this all while maintaining grace and customer service skills.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
-
-Here is some example code to illustrate Simple Schema use:
-
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
- 
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
+Recently, I have been promoted to runner and I'm very proud of this achievement. A runner's job is much more mentally intensive

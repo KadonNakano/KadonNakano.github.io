@@ -9,7 +9,7 @@ labels:
   - Work
 summary: "A brief overview of my experience at MW fine dining and what I learned along the way..."
 ---
-<img src="img/MW/mwbanner.jpg" alt="MW banner" style="width:100%; height:auto; display:block;">
+![MW banner](/img/MW/mwbanner.jpg)
 
 Since 2024, I’ve worked at MW, a fine-dining restaurant. During my first year, I was a busser. While that role is often underestimated, at MW it’s anything but small. The job demands constant movement and constant focus—you’re always anticipating what’s needed next, working in seconds, and finding ways to eliminate anything unnecessary so service stays smooth. All of that has to happen while maintaining professionalism, grace, and genuine hospitality.
 

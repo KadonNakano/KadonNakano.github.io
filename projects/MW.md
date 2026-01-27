@@ -1,13 +1,13 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
+image: img/MW/mwlogo.jpeg
 title: "MW"
 date: 2024
 published: true
 labels:
   - Work
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+summary: "A brief overview of my experience at MW fine dining and what I learned along the way.."
 ---
 
 Since 2024, I’ve worked at MW, a fine-dining restaurant. During my first year, I was a busser. While that role is often underestimated, at MW it’s anything but small. The job demands constant movement and constant focus—you’re always anticipating what’s needed next, working in seconds, and finding ways to eliminate anything unnecessary so service stays smooth. All of that has to happen while maintaining professionalism, grace, and genuine hospitality.

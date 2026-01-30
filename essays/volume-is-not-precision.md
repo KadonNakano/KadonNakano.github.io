@@ -18,10 +18,11 @@ A good example of a smart question on Stack Overflow is this one I found titled 
 
 ```html
 <body bgcolor="chucknorris">test</body>
+```
 Observed result: 🟥 red-ish background
 
 Conversely:
+```html
 <body bgcolor="chucknorr">test</body>
+```
 Observed result: 🟨 yellow-ish background
-...
-'''

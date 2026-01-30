@@ -10,6 +10,11 @@ labels:
   - Technical Essay
 ---
 
+<img
+  src="/img/essayimgs/communication.jpg"
+  alt="Communication icon"
+  class="wrap-left"
+/>
 Something that I've learned through life, work, and relationships is that communication isn't key, *good* communication is. In my experience, theres one idea that consistently improves communication: conciseness. When you're concise, you avoid overloading the person you are talking to with information, and conciseness also signals that you actually understand what you're saying or asking. This principle maps cleanly into the rules that are outlined in Eric Steven Raymond's essay "How To Ask Questions The Smart Way". One of its most important points is summed up in a single line: "Volume is not precision".
 
 It was actually hard to find a "Not Smart" question on Stack Overflow so instead, I had ChatGPT generate one for me. A "Not Smart" example might be something like: "Python not working. I'm trying to count the lines in a text file but it doesn't work. What am I doing wrong?" It's impossible to answer reliably because it provides no code, no error message and no sample input. This question may be short, but it isn't actually concise. It saves words by simply deleting information so its brevity actually turns into ambiguity.

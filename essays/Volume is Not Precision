@@ -5,6 +5,7 @@ title: "Volume is Not Precision"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-29
 published: true
+permalink: /volume-is-not-precision/
 labels:
   - Technical Essay
 ---
@@ -15,9 +16,11 @@ It was actually hard to find a "Not Smart" question on Stack Overflow so instead
 
 A good example of a smart question on Stack Overflow is this one I found titled "Why does HTML think 'chucknorris' is a color?" ["Why does HTML think 'chucknorris' is a color?"](https://stackoverflow.com/questions/8318911/why-does-html-think-chucknorris-is-a-color). It is focused on one behavior, includes a tiny reproducible snippet, and provides a comparison case that changes the outcome. This all shows that the original poster tested, observed, and did his homework. What I really like about this post is just how short it is. Three sentences were all this person needed to communicate the behavior and demonstrate with a minimal example. There's no filler and theres just enough context to make the question immediately answerable.
 
+```html
 <body bgcolor="chucknorris">test</body>
 Observed result: 🟥 red-ish background
 
 Conversely:
 <body bgcolor="chucknorr">test</body>
 Observed result: 🟨 yellow-ish background
+

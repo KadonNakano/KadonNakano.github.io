@@ -23,4 +23,4 @@ Observed result: 🟥 red-ish background
 Conversely:
 <body bgcolor="chucknorr">test</body>
 Observed result: 🟨 yellow-ish background
-
+...

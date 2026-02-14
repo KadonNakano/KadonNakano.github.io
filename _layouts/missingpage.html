@@ -11,17 +11,17 @@ layout: default
 
     <h3>Essays</h3>
     <ul>
-      {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
-      {% for page in essay_pages %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+      {% assign essay_pages = site.pages | where: "type", "essay" | where_exp: "p", "p.url and p.url != '' and p.name != '404.html'" | sort: "date" | reverse %}
+      {% for p in essay_pages %}
+        <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
       {% endfor %}
     </ul>
 
     <h3>Projects</h3>
     <ul>
-      {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
-      {% for page in project_pages %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+      {% assign project_pages = site.pages | where: "type", "project" | where_exp: "p", "p.url and p.url != '' and p.name != '404.html'" | sort: "title" %}
+      {% for p in project_pages %}
+        <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
       {% endfor %}
     </ul>
   </div>

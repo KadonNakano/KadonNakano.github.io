@@ -1,0 +1,17 @@
+---
+layout: essay
+type: essay
+title: "Coding Standards: Pedantry or Productivity?"
+# All dates must be YYYY-MM-DD format!
+date: 2026-02-13
+published: true
+labels:
+  - Engineering
+  - Coding Standards
+---
+
+When I first heard the phrase "coding standards", what I initially heard is "more work". If I'm coding alone, I can usually keep my own style consistent enough, and I don't need a checklist to tell me how to do simple things like properly naming a variable. So on the surface, coding standards can feel like unnecessary pedantry.
+
+But the moment you're working with other people, standards stop being about personal preference and style. They start to become more about reducing friction. A shared codebase can almost be seen as a conversation taking place between engineers. And so in this type of analogy it is easy to see that "coding standards" become less about personal preference and more about ensuring everyone is actually speaking the same language.
+
+<div style="clear:both;"></div>

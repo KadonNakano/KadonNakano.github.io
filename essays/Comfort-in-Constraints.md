@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Comfort in Constraints"
 # All dates must be YYYY-MM-DD format!
-date: 2026-01-22
+date: 2026-02-26
 published: true
 labels:
   - Engineering

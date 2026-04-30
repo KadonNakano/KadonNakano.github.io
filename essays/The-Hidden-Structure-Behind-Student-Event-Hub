@@ -11,6 +11,10 @@ labels:
   - Final Project Reflection
 ---
 
+<p align="center">
+  <img src="img/studenteventhub.png" alt="Student Event Hub Banner" width="600">
+</p>
+
 When building a website, it is easy for the code to turn into a messy pile of buttons, pages, forms, and data all mixed together. Design patterns help prevent that. A design pattern is basically a common way to solve a common coding problem. It is like following a recipe instead of guessing every step. The pattern does not write the project for you, but it gives you a cleaner way to organize the pieces so the project is easier to build, fix, and explain later.
 
 For our final project, Student Event Hub, the main idea was to make a web app where students could find student life events, create new ones, see all events, and save events to their own calendar page. Since our project was based on Bowfolios, we used a similar kind of structure where the site is split into pages, forms, reusable parts, and data collections. That means we were using a design pattern without always thinking about it as some fancy term. The app has one part that handles what the user sees, another part that deals with event information, and another part that connects the two when someone creates, edits, filters, or saves an event.

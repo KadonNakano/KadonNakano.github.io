@@ -12,7 +12,7 @@ labels:
 ---
 
 <p align="center">
-  <img src="img/studenteventhub.png" alt="Student Event Hub Banner" width="600">
+  <img src="/img/studenteventhub.png" alt="Student Event Hub Banner" width="600">
 </p>
 
 When building a website, it is easy for the code to turn into a messy pile of buttons, pages, forms, and data all mixed together. Design patterns help prevent that. A design pattern is basically a common way to solve a common coding problem. It is like following a recipe instead of guessing every step. The pattern does not write the project for you, but it gives you a cleaner way to organize the pieces so the project is easier to build, fix, and explain later.

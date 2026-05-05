@@ -10,6 +10,8 @@ labels:
   - Instrospection
 ---
 
+<img src="/img/effortimg.png" alt="Student Event Hub Banner" width="600">
+
 # Effort Estimation in Software Engineering
 
 ## Estimating Started as an Educated Guess

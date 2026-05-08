@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "KadonNakano", "url": "http://github.com/KadonNakano" },
-      { "network": "linkedin", "username": "KadonNakano", "url": "www.linkedin.com/in/kadon-nakano" },
+      { "network": "linkedin", "username": "KadonNakano", "url": "http://linkedin.com/in/kadon-nakano" },
       { "network": "gmail", "username": "kadonnakano1@gmail.com", "url": "mailto:kadonnakano1@gmail.com" }
     ]
   },

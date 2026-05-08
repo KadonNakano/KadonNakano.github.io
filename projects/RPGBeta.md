@@ -12,6 +12,7 @@ labels:
   - Game Dev
 summary: "Final project for ECE 205: a branching story RPG with turn-based combat driven by JSON."
 ---
+<img src="rpg_sc.png" alt="RPG Beta terminal screenshot" width="100%">
 
 **RPG Beta** is a horror-themed, text-based RPG I built as my final project for **ECE 205 (University of Hawaiʻi, College of Engineering)**.  
 The game combines a *branching narrative* (loaded from a JSON story file) with *turn-based battles* against undead enemies, implemented with an object-oriented character system (Knight/Wizard vs. Zombie/Zombie King).

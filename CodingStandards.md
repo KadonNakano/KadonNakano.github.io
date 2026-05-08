@@ -9,6 +9,7 @@ labels:
   - Engineering
   - Coding Standards
 ---
+<img src="/img/coding-standards.png" alt="Studying software engineering" width="250" align="left" style="margin-right: 24px; margin-bottom: 18px;">
 
 When I first heard the phrase "coding standards", what I initially heard is "more work". If I'm coding alone, I can usually keep my own style consistent enough, and I don't need a checklist to tell me how to do simple things like properly naming a variable. So on the surface, coding standards can feel like unnecessary pedantry.
 

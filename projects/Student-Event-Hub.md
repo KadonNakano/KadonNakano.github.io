@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/MW/mwlogo.jpeg
+image: img/sehlogo.png
 title: "Student Event Hub"
 date: 2026
 published: true

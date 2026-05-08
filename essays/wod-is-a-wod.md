@@ -4,7 +4,7 @@ type: essay
 title: "WOD is a WOD?"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-22
-published: true
+published: false
 labels:
   - Typescript
   - Technical Essay

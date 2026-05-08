@@ -4,7 +4,7 @@ type: essay
 title: "The Hidden Structure Behind Student Event Hub"
 # All dates must be YYYY-MM-DD format!
 date: 2026-04-30
-published: true
+published: false
 labels:
   - Design Patterns
   - Engineering Methodology

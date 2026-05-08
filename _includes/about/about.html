@@ -4,18 +4,40 @@
       <div class="col-lg-4">
         <img width="300px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle">
       </div>
+
       <div class="col-lg-8">
         <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
         <p class="lead text-center">{{ site.data.bio.basics.label }}</p>
         <p class="lead">{{ site.data.bio.basics.summary }}</p>
+
         <hr class="my-4">
+
         <p class="lead m-0">
           Interests:
           {% for interest in site.data.bio.interests %}
-          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
+            {{ interest.name }}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </p>
+
+        {% if site.data.bio.skills %}
+          <hr class="my-4">
+
+          <div class="lead">
+            <p class="lead mb-2">Skills:</p>
+
+            {% for skill in site.data.bio.skills %}
+              <p class="mb-1">
+                <strong>{{ skill.name }}:</strong>
+                {% for keyword in skill.keywords %}
+                  {{ keyword }}{% if forloop.last != true %}, {% endif %}
+                {% endfor %}
+              </p>
+            {% endfor %}
+          </div>
+        {% endif %}
+
         <hr class="my-4">
+
         <div class="row">
 
           {% if site.data.bio.basics.website %}

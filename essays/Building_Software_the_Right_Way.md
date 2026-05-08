@@ -7,6 +7,7 @@ date: 2026-05-07
 published: true
 labels:
   - Engineering
+  - Reflection
 ---
 ## More Than Just Code
 

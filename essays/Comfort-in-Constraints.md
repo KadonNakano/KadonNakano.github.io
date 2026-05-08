@@ -16,6 +16,6 @@ HTML and CSS are incredibly barebones. They are powerful but if you try to use t
 
 This is where a UI framework like Bootstrap 5 starts to make a lot of sense. It's not that it magically makes HTML and CSS easier. (I actually thought it was a little intimidating upon making the switch to Bootstrap.) But it does make decisions easier. You don't need to decide how big or small individual elements need to be because you are working essentially on a grid with predictable behavior. You do trade some creative freedom but what you get back is a shared convention, styles that don't break when used incorrectly, and resuable components. Not to mention easily creating cohesive webpages that look and feel fluid, which at the end of the day is all you really need.
 
-So while Bootstrap 5 can feel like giving up some control at first, I think that tradeoff is exactly the point. HTML and CSS give you the raw materials, but Bootstrap gives you a structure for using those materials without having to reinvent the same patterns over and over again. It turns a lot of small design decisions into something more systematic, which makes the process feel less chaotic as a project grows. For me, the value is not that Bootstrap replaces learning HTML and CSS, but that it gives those tools a practical framework to live inside.
+For me, that is the real comfort in Bootstrap: it narrows the number of decisions I have to make, not so I can stop thinking, but so I can spend more time thinking about the parts of the project that actually matter.
 
 <div style="clear:both;"></div>

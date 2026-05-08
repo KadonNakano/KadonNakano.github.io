@@ -9,7 +9,7 @@ labels:
   - Engineering
 ---
 
-<img src="studyimg.png" alt="Studying software engineering" width="250" align="left" style="margin-right: 24px; margin-bottom: 18px;">
+<img src="/img/studyimg.png" alt="Studying software engineering" width="250" align="left" style="margin-right: 24px; margin-bottom: 18px;">
 
 ## What I Learned About Software Engineering
 

@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/MW/mwlogo.jpeg
 title: "Student Event Hub"
-date: 2024
+date: 2026
 published: true
 labels:
   - Final Project

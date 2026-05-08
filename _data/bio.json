@@ -23,7 +23,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "CSS", "Typescript", "HTML", "Bootstrap", "React", "NextJS", "Prisma"  ]
     },
     {
       "name": "Toolsets/OS",

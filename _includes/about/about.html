@@ -36,6 +36,46 @@
           </div>
         {% endif %}
 
+        {% if site.data.bio.work %}
+          <hr class="my-4">
+
+          <div class="lead">
+            <p class="lead mb-2">Work Experience:</p>
+
+            {% for job in site.data.bio.work %}
+              <div class="mb-4">
+                <p class="mb-1">
+                  <strong>{{ job.position }}</strong>
+                  at
+                  {% if job.website and job.website != "" %}
+                    <a href="{{ job.website }}">{{ job.company }}</a>
+                  {% else %}
+                    {{ job.company }}
+                  {% endif %}
+                </p>
+
+                <p class="mb-1">
+                  {{ job.startDate }} - {{ job.endDate }}
+                </p>
+
+                {% if job.summary and job.summary != "" %}
+                  <p class="mb-1">
+                    {{ job.summary }}
+                  </p>
+                {% endif %}
+
+                {% if job.highlights %}
+                  <ul class="mb-0">
+                    {% for highlight in job.highlights %}
+                      <li>{{ highlight }}</li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+
         <hr class="my-4">
 
         <div class="row">

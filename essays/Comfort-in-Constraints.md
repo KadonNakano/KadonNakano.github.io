@@ -10,6 +10,7 @@ labels:
   - HTML5 & CSS
   - Bootstrap 5
 ---
+<img src="/img/htmlcss.png" alt="Studying software engineering" width="250" align="left" style="margin-right: 24px; margin-bottom: 18px;">
 
 HTML and CSS are incredibly barebones. They are powerful but if you try to use these on their own to build something real, but due to this "barebone-ness" they tend to feel indifferent. They don't care that you're trying to build a cohesive looking webpage that has buttons that belong to the same product, or whether your layout collapses gracefully on a phone. For a small page, it might feel refreshing to have such a barebone level of control over everything. But for anything larger than a couple pages, I could only imagine how incredibly cluttered a CSS file might get.
 

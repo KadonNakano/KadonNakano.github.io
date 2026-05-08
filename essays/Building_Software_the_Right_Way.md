@@ -3,13 +3,13 @@ layout: essay
 type: essay
 title: "Building Software the Right Way"
 # All dates must be YYYY-MM-DD format!
-date: 2026-02-26
+date: 2026-05-07
 published: true
 labels:
   - Engineering
 ---
 
-
+<img src="studyingimg.png" alt="Studying software engineering" width="250" align="right">
 
 ## What I Learned About Software Engineering
 

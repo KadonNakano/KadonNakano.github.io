@@ -73,7 +73,7 @@ For quality assurance, AI was one of the most useful tools. A prompt I used was:
 
 ### 14. Other Uses in ICS 314
 
-Another use of AI was helping me make my writing sound more like me. A prompt I used was: “Make this paragraph simpler and less formal without changing the meaning.” This helped for portfolio essays and reflection work. I also used AI to plan what files to send when asking for coding help. That made it easier to get a useful answer. AI was also helpful for GitHub and deployment problems. It gave me a place to start when an error message looked confusing.
+Another use of AI was helping me make my writing sound more like me. A prompt I used was: “Make this paragraph simpler and less formal without changing the meaning.” This helped for portfolio essays and reflection work. AI was also helpful for GitHub and deployment problems as it gave me a place to start when an error message looked confusing.
 
 ## III. Impact on Learning and Understanding
 

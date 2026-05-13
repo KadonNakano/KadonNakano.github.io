@@ -12,10 +12,9 @@ labels:
 
 # Coding With a Second Brain: My Experience Using AI in ICS 314
 
-<img src="/img/gptbuddy.png" alt="GPT Buddy" width="250" align="left" style="margin-right: 24px; margin-bottom: 18px;">
-
 ## I. Introduction
 
+<img src="/img/gptbuddy.png" alt="GPT Buddy" width="250" align="left" style="margin-right: 24px; margin-bottom: 18px;">
 AI has become a normal part of education because it can act like a tutor that's always available. In software engineering, this matters because students are often dealing with code that breaks in small, confusing ways. AI can help explain errors, it can also help turn a vague idea into a clear next step. In ICS 314, I used AI mostly as a guide when I was stuck or when I needed a clearer explanation. The main AI tool I used was ChatGPT. I used it for code help and essay drafts. I also used it to understand concepts when the course material felt too fast.
 
 I did not treat AI as a replacement for doing the work. I treated it more like a second person to ask when I was confused. Sometimes it was useful right away. Other times it gave an answer that was too general or not close enough to the course instructions. That meant I still had to check the code and compare it with the assignment. Overall, AI made the course feel less overwhelming. It helped me to keep moving when I might have gotten stuck for a long time.

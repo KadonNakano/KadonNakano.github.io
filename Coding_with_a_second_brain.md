@@ -10,9 +10,9 @@ labels:
   - Reflection
 ---
 
-<img src="/img/gptbuddy.png" alt="GPT Buddy" width="250" align="left" style="margin-right: 24px; margin-bottom: 18px;">
-
 # Coding With a Second Brain: My Experience Using AI in ICS 314
+
+<img src="/img/gptbuddy.png" alt="GPT Buddy" width="250" align="left" style="margin-right: 24px; margin-bottom: 18px;">
 
 ## I. Introduction
 
